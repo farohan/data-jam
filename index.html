@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Insecticides vs. Bacillus thuringiensis (Bt) - Hudson Data Jam Competition</title>
+</head>
+<body>
+    <div id="top">
+        <div id="header">
+            <div class="progress-container">
+              <div class="progress-bar" id="myBar"></div>
+            </div>  
+        </div>
+        <div id="head-title-div">
+            <h1 id="head-title"> Insecticides Versus Bt: Which One Should We Use for Agriculture? </h1>
+            <p class="by">By Faisal Rohan; 6th grade; Longfellow Magnet Middle School</p>
+        </div>
+    </div>
+        <button class="button2" title="Toggle Dark Mode" onclick="darkModeToggle()"> Dark Mode </button>
+        <h3 class="paragraph-title"> 2. Introduction </h3>
+        <p class="report"> Ever since agriculture began about 12,000 years ago, people have been using pesticides, or more specifically, insecticides. 
+            The insecticides started out as 100% natural substances like sulfur. 
+            However, more and more toxic chemicals have been used to create insecticides since. 
+            That has had detrimental effects on the environment and ecosystem, killing bees and shattering the delicate balance that Nature had before. 
+            But recently in the 20th century, scientists have found a species of bacteria called Bacillus thuringiensis (Bt) that can also kill pests when applied to plants, such as corn and wheat. 
+            These bacteria have done no harm to bees so far. 
+            But is this too good to be true? 
+            Are these bacteria really that safe?
+            Should we use them more or less or stop using them altogether? 
+            In this report, you will learn about what Bt is in more detail, 
+            the effects that it has on our environment compared to insecticides, 
+            which one is more sustainable and better for agriculture, and more. </p>
+
+        <h3 class="paragraph-title"> 3. Dataset Description </h3>
+        <p class="report">
+            From 1939 up to 2013, the U.S. Department of Agriculture's 
+            National Agricultural Statistic Service (USDA/NASS)
+            carried out surveys throughout the entire United States.
+            Their goal was to get an estimation about how well agriculture was going in the U.S.
+            and what they could do to make it more effective.
+            All of the data in this report — statistics, graphs, charts — comes from the USDA/NASS survey,
+            and its variables include: the year, the number of honey bee colonies (in the thousands), 
+            the pounds of insecticides (in the millions) used, 
+            and the percentage of acres reserved for growing corn that use Bt.
+        </p>
+
+        <h3 class="paragraph-title"> Insecticides </h3>
+        <p class="report"> The insecticides today are far more dangerous than the ones used in the past. 
+            Both plants and animals have suffered from this, 
+            especially important pollinating insects like honey bees. 
+            Here are two charts that show the correlation 
+            between the amount of insecticides used 
+            and the number of honey bee colonies in the United States: </p>
+
+        <div id="data-photo-div">
+            <img class="data-photos" id="data-photo1" src="photos/insecticides.png" alt="Amount of insecticides used throughout the years" height="300" width="425">
+            <img class="data-photos" id="data-photo2" src="photos/honeybees.png" alt="Number of Honey Bee Colonies in the United States Throughout the Years" height="300" width="425">
+        </div>
+
+        <p class="note"> <strong> Reminder: </strong> The number of honey bee colonies is in the thousands (e.g. 6000 thousands would be six million). </p>
+
+        <h4 class="paragraph-title">5. Data Trends and Comparisons</h4>
+
+        <p class="report"> In these charts, you can see that the number of bee colonies is only about one-third of what it used to be in the 1940's, that is, when insecticides were used less. 
+            As insecticides were used more and more, the number of U.S. honey bee colonies decreased. 
+            You can especially see that in the 1960's and 1970's; the years when insecticide use skyrocketed and the bee population collapsed.
+            It continued diving until the early 90's, showing the long-term damage that insecticides have had on honey bees. 
+        </p>
+
+        <h4 class="paragraph-title">6. Data Interpretation</h4>
+
+        <p class="report">
+            But why are the data and charts like this? 
+            Why does the honey bee population decrease when insecticides are used more? 
+            There could be many reasons as to why, 
+            but I believe it’s because of how toxic the insecticides are. 
+            Humans face lots of health problems (see Sources down below) if they are exposed to insecticides for a long time, 
+            and since bees are much smaller than humans, even a short amount of time may be fatal. 
+            In addition to that, insecticides have chronic effects on the environment. 
+            That’s why even when insecticide-use lessened, 
+            the number of honey bee colonies in the United States continued to decline. 
+        </p>
+            
+        <h4 class="paragraph-title">7. New Questions and Hypotheses</h4>
+            
+        <p class="report">
+            This brings up a few questions and hypotheses.
+            The first question I have is how long does it exactly take for insecticides to
+            "wash" away completely and no longer damage the ecosystem?
+            I notice that similar to the amount of insecticides used,
+            the bee colonies disappeared between 1960 and the 2000's.
+            Perhaps it takes about 40 to 50 years for insecticides (in general) to have at least diluted
+            effects on plants and animals.
+            Or it could take more or less time; more research could be done on that and what variables lengthen or shorten that time.
+            Now to my second question: Beyond the range of the charts, 
+            did insecticide-use affect honey bees in any way?
+            One hypothesis that I have is that maybe insecticides did affect bees.
+            In fact, you can see the number of bee colonies increasing from a little 
+            more than 4,000 in 1939 to about 6,000 in 1948 or so.
+            At the same time, insecticides were being used at a fairly constant rate.
+            I think the honey bees were recovering from the toxicity of the insecticides.
+        </p>
+
+        <h3 class="paragraph-title"> Bacillus thuringiensis (Bt) </h3>
+
+        <p class="report"> Bacillus thuringiensis (Bt) is a species of bacteria found in soil. 
+            It was discovered in 1901 by a Japanese scientist and was rediscovered by a German scientist in 1911.
+            It was first used commercially as a spray in the U.S. in 1958 and has been used since for agriculture. 
+            Bt is introduced to plants in two ways: sprays and genetic engineering. 
+            Now here is another set of charts that show what happened to bees after Bt was used on a large scale in the 1990's: </p>
+
+        <div id="data-photo-div2">
+            <img class="data-photos" id="data-photo11" src="photos/btcorn.png" alt="Amount of Bacillus thuringiensis (Bt) used throughout the years" height="300" width="425">
+            <img class="data-photos" id="data-photo22" src="photos/honeybees.png" alt="Chart of honey bee population in the U.S." height="300" width="425">
+        </div>
+
+        <h4 class="paragraph-title">5. Data Trends and Comparisons</h4>
+
+        <p class="report"> Looking at these charts, it seems that Bt has no effect on bees, whether positive or negative. 
+            Honey bee populations remained the same, even after the bacteria was used so much that more than 75% — or three-fourths — of corn fields in the United States contained Bt. 
+        </p>
+
+        <h4 class="paragraph-title">6. Data Interpretation</h4>
+
+        <p class="report">
+            But what is the science behind this? 
+            Why doesn’t Bt do anything to bees? 
+            The secret here is that Bt becomes active and deadly <i>only</i> when it is eaten by particular insects, 
+            which does not include pollinating honey bees. 
+            This makes Bt a sort of selective insecticide. 
+            After reading this, you may be wondering, 
+            “Why isn’t everyone using Bt in their gardens, then?” 
+            Well, there is one caveat: 
+            For instance, let’s say everyone starts using Bt in their gardens, 
+            and they are able to kill 99% of all pests. 
+            What about that 1%, though? That 1% of pests has just become resistant to Bt. 
+            Their offspring will also be resistant to Bt, which just recreates the pest problem. 
+            This is true for human-made insecticides, as well. 
+            The few surviving insects will become resistant, thus transforming into “super-insects”,
+            and thus regulating over-use. 
+        </p>
+
+        <h4 class="paragraph-title">7. New Questions and Hypotheses</h4>
+
+        <p class="report">
+            One question that comes to mind after seeing all this is 
+            if insecticides stop being used entirely and everyone uses Bt that 
+            can somehow kill 100% of all pests and insects, will bee populations start to 
+            rise again? I believe it will rise again because Bt doesn't do anything, 
+            unlike insecticides, as proved by my charts  
+            and some other experiments done by scientists and researchers.
+            Another question I have is if we use 
+            Bt and insecticides in different areas for the next, let's say, six months,
+            what will happen to bees?
+            I think the areas with Bt will do much better than the areas with insecticides,
+            in terms of how many bees there are left in six months.
+            Again, Bt is not at all harmful to honeybees, while insecticides are.
+        </p>    
+
+        <h3 class="paragraph-title"> Conclusion </h3>
+
+        <p class="report"> Today, we looked at two ways of protecting plants from pests and other unwanted insects.
+            One way was using insecticides. 
+            That kills bees and isn't good for us humans in general as well.
+            The other way of protecting plants was using a bacteria found in the soil called Bacillus thuringiensis.
+            Bt hasn't caused any damage to honeybees, crops, or humans yet. 
+            However, while using Bt excessively is tempting, 
+            certain, hardy insects may grow resistant to the bacteria and continue to cause problems.
+            So the next time you drive in the countryside or past a farm, why not take a few seconds to think about bees, the lovely gardeners of our Earth. </p>
+
+        <p id="thanks"> Thanks for reading! </p>
+        
+        <br>
+
+        <p> <a href="source.html"> <button class="to-sources" title="References"> Sources </button></a>  
+            <a href="creative-proj.html"><button class="to-creative" title="Creative project explanation">Creative Project Explanation</button></a>
+            <a href="reflection.html"><button class="to-reflection" title="Reflection on Data Jam"> Brief Reflection on Data Jam </button></a> </p>
+
+    <div class="footer"> 
+        <div id="credits-div">
+            <p class="credits"> Created by Faisal Rohan for the 2021 Hudson Data Jam Competition </p>
+        </div>
+        <div id="timekeeper-div">
+            <p id="time"></p>
+            <p id="date"></p> 
+        </div>
+        <button class="button" onclick="window.print()" title="Print webpage"> Print Webpage </button>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
+
