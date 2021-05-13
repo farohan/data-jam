@@ -7,4 +7,4 @@ This project was made by Farohan.
 Technologies Used:
 - HTML
 - CSS
-- JS
+- JavaScript
