@@ -8,3 +8,6 @@ Technologies Used:
 - HTML
 - CSS
 - JavaScript
+
+Active Hyperlink:
+https://farohan.github.io/data-jam/
